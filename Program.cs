@@ -14,7 +14,7 @@ class Program
             return;
         }
 
-        for (int i = 0; i <= wagonCount; i++)
+        for (int i = 0; i < wagonCount; i++)
         {
             Console.WriteLine($"\nВвод данных для вагона #{i + 1}:");
             Console.WriteLine("Выберите тип вагона: 1 - Купе, 2 - Плацкарт, 3 - СВ");
